@@ -97,7 +97,10 @@ Exit with:
 ```bash
 exit
 ```
-
+run help to get a list of commands:
+```bash
+help
+```
 ---
 
 ## ⚡ Roadmap
