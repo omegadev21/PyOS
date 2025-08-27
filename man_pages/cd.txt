@@ -1,0 +1,15 @@
+CD(1)                     PyOS File Commands               CD(1)
+
+NAME
+    cd - change directory
+
+SYNOPSIS
+    cd <directory>
+
+DESCRIPTION
+    Changes the current working directory within the PyOS virtual
+    file system.
+
+EXAMPLES
+    cd /home/bob
+        Moves into bob’s home directory

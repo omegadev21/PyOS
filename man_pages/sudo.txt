@@ -1,0 +1,15 @@
+SUDO(8)                  PyOS Privilege Commands          SUDO(8)
+
+NAME
+    sudo - run a command as superuser
+
+SYNOPSIS
+    sudo <command>
+
+DESCRIPTION
+    Executes the given command with root privileges. Requires
+    entering the user’s password unless recently cached.
+
+EXAMPLES
+    sudo rm system.log
+        Deletes system.log with root rights

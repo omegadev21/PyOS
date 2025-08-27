@@ -1,0 +1,15 @@
+
+MKDIR(1)                 PyOS File Commands               MKDIR(1)
+
+NAME
+    mkdir - create directories
+
+SYNOPSIS
+    mkdir <dirname>
+
+DESCRIPTION
+    Creates a new directory with the given name.
+
+EXAMPLES
+    mkdir projects
+        Creates a directory called 'projects'

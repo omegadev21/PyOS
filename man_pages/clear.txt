@@ -1,0 +1,10 @@
+CLEAR(1)                 PyOS Shell Commands              CLEAR(1)
+
+NAME
+    clear - clear the terminal screen
+
+SYNOPSIS
+    clear
+
+DESCRIPTION
+    Clears all previous output from the terminal.

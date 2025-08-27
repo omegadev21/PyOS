@@ -1,0 +1,20 @@
+ADDUSER(1)               PyOS User Commands              ADDUSER(1)
+
+NAME
+    adduser - create a new user account
+
+SYNOPSIS
+    adduser <username>
+
+DESCRIPTION
+    The adduser command creates a new user account in PyOS. It:
+      • Adds the user to the SQLite user database
+      • Creates a home directory under /home/<username>
+      • Prompts for a password (stored securely using bcrypt)
+
+EXAMPLES
+    adduser alice
+        Creates a new user 'alice' and home directory /home/alice
+
+SEE ALSO
+    removeuser(1), passwd(1)

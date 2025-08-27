@@ -1,0 +1,22 @@
+REMOVEUSER(1)           PyOS User Commands              REMOVEUSER(1)
+
+NAME
+    removeuser - delete a user and their home directory
+
+SYNOPSIS
+    removeuser <username>
+
+DESCRIPTION
+    Permanently deletes a user account from PyOS. This includes:
+      • Removing the user from the database
+      • Deleting their home directory
+      • Revoking sudo access if assigned
+
+    Fails if the user is currently logged in.
+
+EXAMPLES
+    removeuser bob
+        Deletes user 'bob' and their home.
+
+SEE ALSO
+    adduser(1), passwd(1)

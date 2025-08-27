@@ -1,0 +1,21 @@
+PASSWD(1)                PyOS User Commands              PASSWD(1)
+
+NAME
+    passwd - change a user password
+
+SYNOPSIS
+    passwd [username]
+
+DESCRIPTION
+    Changes the password for the specified user. If no username
+    is given, changes the current user’s password.
+
+EXAMPLES
+    passwd
+        Changes your own password
+
+    passwd alice
+        Changes Alice’s password (root only)
+
+SEE ALSO
+    adduser(1), removeuser(1)

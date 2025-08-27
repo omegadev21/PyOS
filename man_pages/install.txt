@@ -1,0 +1,25 @@
+INSTALL(1)               PyOS Package Manager            INSTALL(1)
+
+NAME
+    install - install packages or apply system updates
+
+SYNOPSIS
+    install <package>
+    install --update
+
+DESCRIPTION
+    Installs packages from the PyOS update server, or performs a
+    full system update if --update is provided.
+
+OPTIONS
+    --update    Apply a full system update.
+
+EXAMPLES
+    install nano
+        Installs the nano text editor.
+
+    install --update
+        Updates PyOS to the latest version.
+
+SEE ALSO
+    sudo(8), removeuser(1)

@@ -1,0 +1,15 @@
+NANO(1)                  PyOS File Commands               NANO(1)
+
+NAME
+    nano - edit files in a simple text editor
+
+SYNOPSIS
+    nano <filename>
+
+DESCRIPTION
+    Opens a basic text editor for creating or editing text files.
+    Installed separately via 'install nano'.
+
+EXAMPLES
+    nano notes.txt
+        Edits or creates notes.txt

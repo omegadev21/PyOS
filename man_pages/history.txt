@@ -1,0 +1,13 @@
+HISTORY(1)               PyOS Shell Commands              HISTORY(1)
+
+NAME
+    history - show command history
+
+SYNOPSIS
+    history
+
+DESCRIPTION
+    Displays the list of commands executed in the current session.
+
+SEE ALSO
+    !n (replay)

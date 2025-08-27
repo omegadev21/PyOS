@@ -1,0 +1,14 @@
+RM(1)                     PyOS File Commands               RM(1)
+
+NAME
+    rm - remove files
+
+SYNOPSIS
+    rm <file>...
+
+DESCRIPTION
+    Removes one or more files from the current directory.
+
+EXAMPLES
+    rm temp.txt
+        Deletes temp.txt

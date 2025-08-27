@@ -1,0 +1,18 @@
+LS(1)                     PyOS File Commands               LS(1)
+
+NAME
+    ls - list directory contents
+
+SYNOPSIS
+    ls [directory]
+
+DESCRIPTION
+    Lists files and directories in the given directory, or in the
+    current working directory if none is provided.
+
+EXAMPLES
+    ls
+        Lists current directory
+
+    ls /home
+        Lists contents of /home

@@ -1,0 +1,14 @@
+MAN(1)                   PyOS Help System                 MAN(1)
+
+NAME
+    man - display command manual
+
+SYNOPSIS
+    man <command>
+
+DESCRIPTION
+    Shows the manual page for the specified command.
+
+EXAMPLES
+    man install
+        Displays the install command manual

@@ -1,0 +1,14 @@
+CAT(1)                   PyOS File Commands               CAT(1)
+
+NAME
+    cat - display file contents
+
+SYNOPSIS
+    cat <file>...
+
+DESCRIPTION
+    Displays the contents of one or more files to the terminal.
+
+EXAMPLES
+    cat notes.txt
+        Prints notes.txt to the screen
