@@ -1,4 +1,4 @@
-# PyOS 🐚
+# PyOS
 
 **PyOS** is a virtual operating system shell written in Python.
 It simulates a Unix-like shell environment with a **virtual filesystem**, **user authentication**, and **command execution**.
