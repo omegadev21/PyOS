@@ -73,21 +73,25 @@ python3 PyOS.py
 ## 📘 Example Session
 
 ```text
-login: bob
-PyOS-O1 Password: ***********
+pyos version 0.01
 
-Welcome To PyOS (Shell/Python 3.13.0)
+╔════════════════════════════════╗
+║        Welcome to PyOS         ║
+╚════════════════════════════════╝
 
- * Documentation:     https://website.com
- * Management:        https://website.com
- * Support:           https://website.com
+Please log in to continue...
 
-welcome, bob!
+PyOS Username: root
+PyOS Password: ***********
 
-bob@PyOS-01:~$ echo "Hello World"
+PyOS (Shell Version 0.01)
+
+Welcome back, root!
+
+root@PyOS-01:~$ echo "Hello World"
 Hello World
 
-bob@PyOS-01:~$ sudo cat /etc/config.txt
+root@PyOS-01:~$ sudo cat /etc/config.txt
 system=PyOS-01
 version=01
 ```
